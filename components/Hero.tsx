@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { useState } from "react";
 import bgforex from "../assets/fx2.png";
-import logo from "../assets/logo.JPG";
+import logo from "../assets/logo.png";
 
 // @ts-ignore
 const navigation = [
