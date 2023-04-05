@@ -118,7 +118,7 @@ const sections = [
     ],
   },
 ];
-
+// @ts-ignore
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
@@ -198,6 +198,7 @@ export default function Example() {
                           "text-4xl font-bold tracking-tight"
                         )}
                       >
+                        {/* @ts-ignore */}
                         {tier.price[frequency.value]}
                       </p>
                       <div className="text-sm leading-5">

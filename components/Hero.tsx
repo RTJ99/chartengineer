@@ -6,6 +6,7 @@ import { useState } from "react";
 import bgforex from "../assets/fx2.png";
 import logo from "../assets/logo.JPG";
 
+// @ts-ignore
 const navigation = [
   { name: "Home", href: "#home" },
   { name: "About Us", href: "#services" },
